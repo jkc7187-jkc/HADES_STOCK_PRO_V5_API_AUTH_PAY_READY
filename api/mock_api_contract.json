@@ -1,0 +1,30 @@
+{
+  "GET /picks/today": {
+    "description": "오늘의 추천종목을 반환하는 API 계약",
+    "response": {
+      "date": "2026-04-28",
+      "picks": [
+        {
+          "rank": 1,
+          "name": "SK하이닉스",
+          "code": "000660",
+          "sector": "반도체",
+          "type": "핵심 대장",
+          "style": "스윙/장투",
+          "entry": "눌림목 분할",
+          "target": "+8~15%",
+          "stop": "-5%",
+          "score": 94,
+          "plan": "FREE",
+          "memo": "추천 사유"
+        }
+      ]
+    }
+  },
+  "POST /auth/login": {
+    "description": "V6 백엔드 연결 예정"
+  },
+  "POST /payments/checkout": {
+    "description": "V6 결제 연결 예정"
+  }
+}

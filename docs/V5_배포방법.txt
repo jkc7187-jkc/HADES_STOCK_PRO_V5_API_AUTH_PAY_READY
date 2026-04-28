@@ -1,0 +1,16 @@
+# V5 배포방법
+
+1. ZIP 압축 해제
+2. GitHub 저장소에 전체 업로드
+3. Vercel > Add New > Project
+4. GitHub 저장소 선택
+5. Framework: Vite
+6. Build Command: npm run build
+7. Output Directory: dist
+8. Deploy 클릭
+
+## API 없이 배포 가능
+V5는 API가 없어도 데모 데이터로 동작합니다.
+
+## 실제 API 연결 시
+Vercel 환경변수에 VITE_API_BASE_URL을 추가합니다.

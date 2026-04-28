@@ -1,0 +1,30 @@
+# V5 이후 V6 작업순서
+
+1. 데이터베이스 선택
+- 초보자 추천: Supabase
+- 대안: Firebase
+
+2. 테이블 설계
+- users
+- subscriptions
+- stock_picks
+- payments
+- admin_logs
+
+3. 로그인 연결
+- 이메일 로그인
+- 카카오/구글 로그인은 이후 추가
+
+4. 결제 연결
+- 국내: Toss Payments 또는 PortOne
+- 해외/간편: Stripe
+
+5. 추천 API 서버
+- /picks/today
+- /picks/history
+- /admin/picks
+- /payments/checkout
+
+6. 배포
+- 프론트: Vercel
+- 백엔드: Render, Railway, Supabase Edge Function, Vercel Serverless 중 선택
